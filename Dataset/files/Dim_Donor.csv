@@ -1,0 +1,11 @@
+donor_sk,donor_id,donor_name,donor_country,donor_type,donor_category,min_grant_usd,max_grant_usd,funding_type,reporting_requirement,relationship_since
+1,DNR-001,USAID,United States,Government,Bilateral,5000000,50000000,Unrestricted,Quarterly,2016
+2,DNR-002,ECHO,European Union,Government,Multilateral,3000000,30000000,Restricted,Monthly,2017
+3,DNR-003,DFID,United Kingdom,Government,Bilateral,2000000,20000000,Restricted,Annual,2010
+4,DNR-004,SIDA,Sweden,Government,Bilateral,1000000,10000000,Unrestricted,Annual,2018
+5,DNR-005,Bill & Melinda Gates Foundation,United States,Foundation,Private,500000,15000000,Restricted,Quarterly,2014
+6,DNR-006,OCHA,United Nations,UN Agency,Multilateral,2500000,25000000,Pooled,Quarterly,2019
+7,DNR-007,BPRM,United States,Government,Bilateral,1500000,12000000,Restricted,Annual,2019
+8,DNR-008,GIZ,Germany,Government,Bilateral,800000,8000000,Unrestricted,Monthly,2016
+9,DNR-009,Islamic Development Bank,Saudi Arabia,Development Bank,Multilateral,600000,6000000,Restricted,Monthly,2017
+10,DNR-010,Private Donors,Various,Individual,Private,50000,500000,Unrestricted,Annual,2017

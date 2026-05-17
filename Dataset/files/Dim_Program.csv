@@ -1,0 +1,11 @@
+program_sk,program_id,program_name,sector,objective,implementing_partner,status,reporting_cycle,budget_usd,target_beneficiaries
+1,PRG-001,Food Security,Nutrition,Reduce acute malnutrition,WFP,Active,Annual,1803932.48,5523
+2,PRG-002,Primary Healthcare,Health,Improve health outcomes,WHO,Active,Bi-annual,7556187.11,30808
+3,PRG-003,Emergency Shelter,Shelter,Provide safe shelter,UNHCR,Active,One-time,3722274.84,26094
+4,PRG-004,WASH,Infrastructure,Clean water & sanitation,UNICEF,Active,Annual,2057309.12,37767
+5,PRG-005,Child Education,Education,Increase school enrolment,UNICEF,Active,Annual,5079088.27,10745
+6,PRG-006,Cash Assistance,Livelihoods,Support purchasing power,WFP,Active,Monthly,762234.97,6393
+7,PRG-007,GBV Prevention,Protection,Reduce gender-based violence,UNFPA,Active,Annual,660813.3,40188
+8,PRG-008,Livelihoods,Economic,Income generation,ILO,Active,Bi-annual,7495841.83,5007
+9,PRG-009,Mental Health,Health,Psychosocial support,WHO,Inactive,Annual,794377.19,18449
+10,PRG-010,Winterization,Shelter,Cold weather supplies,UNHCR,Active,Seasonal,7219119.67,32402

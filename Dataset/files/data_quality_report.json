@@ -1,0 +1,88 @@
+[
+  {
+    "table": "Fact_AidDistribution",
+    "total_records": 700,
+    "total_issues": 507,
+    "quality_score_pct": 27.57,
+    "issue_breakdown": {
+      "null_critical_field": 204,
+      "duplicate_id": 109,
+      "invalid_quantity": 110,
+      "future_date_anomaly": 84
+    },
+    "sample_issues": {
+      "null_critical_field": [
+        {
+          "row": "DIST-006604",
+          "detail": "Field 'beneficiary_sk' is empty"
+        },
+        {
+          "row": "DIST-008436",
+          "detail": "Field 'delivery_status' is empty"
+        },
+        {
+          "row": "DIST-006162",
+          "detail": "Field 'beneficiary_sk' is empty"
+        }
+      ],
+      "duplicate_id": [
+        {
+          "row": "DIST-000001",
+          "detail": "ID DIST-000001 appears more than once"
+        },
+        {
+          "row": "DIST-000001",
+          "detail": "ID DIST-000001 appears more than once"
+        },
+        {
+          "row": "DIST-000001",
+          "detail": "ID DIST-000001 appears more than once"
+        }
+      ],
+      "invalid_quantity": [
+        {
+          "row": "DIST-007508",
+          "detail": "qty=-45"
+        },
+        {
+          "row": "DIST-004821",
+          "detail": "qty=-37"
+        },
+        {
+          "row": "DIST-001624",
+          "detail": "qty=-2"
+        }
+      ],
+      "future_date_anomaly": [
+        {
+          "row": "DIST-004760",
+          "detail": "actual_date=2027-01-15 > 2026-12-31"
+        },
+        {
+          "row": "DIST-006949",
+          "detail": "actual_date=2027-01-15 > 2026-12-31"
+        },
+        {
+          "row": "DIST-004040",
+          "detail": "actual_date=2027-01-15 > 2026-12-31"
+        }
+      ]
+    }
+  },
+  {
+    "table": "Dim_Beneficiary",
+    "total_records": 5000,
+    "total_issues": 0,
+    "quality_score_pct": 100.0,
+    "issue_breakdown": {},
+    "sample_issues": {}
+  },
+  {
+    "table": "Fact_Funding",
+    "total_records": 1000,
+    "total_issues": 0,
+    "quality_score_pct": 100.0,
+    "issue_breakdown": {},
+    "sample_issues": {}
+  }
+]
